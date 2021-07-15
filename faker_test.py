@@ -1,4 +1,7 @@
-"""Faker is a Python package that generates fake data for you."""
+"""
+Author: Filmon Y. Araya
+Title: Test Faker - Python package that generates fake data for you.
+"""
 from faker import Faker
 fake = Faker()
 # create a list of names

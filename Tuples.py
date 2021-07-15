@@ -8,7 +8,7 @@ print("all tuple: ",rec_dimensions,"\n"+ "first tuple: ",rec_dimensions[0])
 
 #rec_dimensions[1]=30 #resulst error since tuples is immutable
 
-rec_dimensions = (30, 40)
+rec_dimensions = (30, 40) #it can only modified by assigning a new values
 for rec_dimension in rec_dimensions:
     print (rec_dimension)
     
