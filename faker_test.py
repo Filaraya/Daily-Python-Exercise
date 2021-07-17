@@ -30,3 +30,5 @@ for address in range(1, 4):
 print("list of addresses:\n", addresses)
 # create a sample of text
 print("sample of text:\n", fake.text())
+
+print ("test", fake.profile())
