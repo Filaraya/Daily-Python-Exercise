@@ -26,3 +26,33 @@ if 'pepperoni' in requested_toppings:
 if 'extra cheese' in requested_toppings:
     print("Adding extra cheese.")
 print("\nFinished making your pizza!")
+
+#stage of life
+age = 17
+if age < 2:
+    print("the person is a baby")
+elif age < 4:
+    print("the person is a toddler")
+elif age < 13:
+    print ("the person is a kid")
+elif age < 20:
+    print ("the person is a teenager")
+elif age < 65:
+    print("the person is an adult")
+else:
+    print ("the person is an elder")
+
+#favorite fruit
+favorite_fruits =['banana','orange','apple','avocado']
+for i in favorite_fruits:
+    if i=='banana':
+        print('you like banana')
+    elif i=='orange':
+        print('you like orange')
+    elif i=='apple':
+        print('you like apple')
+    elif i== 'avocado':
+        print('you like avocado')
+    else:
+        print('the fruit is not your favorite fruits')
+print('process DONE!')
