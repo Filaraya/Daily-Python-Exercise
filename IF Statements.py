@@ -55,4 +55,49 @@ for i in favorite_fruits:
         print('you like avocado')
     else:
         print('the fruit is not your favorite fruits')
-print('process DONE!')
+
+
+#Hello Admin
+"""If the username is 'admin', print a special greeting,
+such as Hello admin, would you like to see a status report?
+Otherwise, print a generic greeting, such as Hello Eric,
+thank you for loggin in again."""
+#list =[]
+usernames = ['Abraham', 'Hanna', 'David','admin','Sarah']
+#usernames.clear()
+print (usernames)
+if usernames == []: #to check the list is empty
+    print ("We need to find some users!")
+else:
+    for i in usernames:
+        if i=='admin':
+            print ('Hello admin, would you like to see a status report?')
+        else:
+            print ('Hello,',i,'thank you for logging in again')
+
+
+
+#checking usernames
+current_users = ['Jhon','Eric','Jennifer','Maria']
+new_users = ['David','Vicent','Eric','Calieb']
+current_users_lower = [i.lower() for i in current_users]
+print("lower of current_users", current_users_lower)
+for new_user in new_users:
+    if new_user.lower() in current_users_lower:
+        print(f'{new_user} sorry the user name is already used')
+    else:
+        print(f'{new_user} is available')
+
+#Ordinal Number
+numbers = list(range(1,10))
+for number in numbers:
+    if number == 1:
+        print('1st')
+    elif number == 2:
+        print ('2nd')
+    elif number == 3:
+        print ('3rd')
+    else:
+        print(f'{number}th')
+
+print ("process DONE!!")
