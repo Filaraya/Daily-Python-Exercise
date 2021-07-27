@@ -84,3 +84,75 @@ for username,userinfo in users.items():
     location = userinfo['location']
     print("\tfull_name: " + full_name.title())
     print("\tlocation: " + location.title())
+    
+# Make an empty list to store the pets in.
+pets = []
+
+# Make individual pets, and store each one in the list.
+pet = {
+    'animal type': 'python',
+    'name': 'john',
+    'owner': 'guido',
+    'weight': 43,
+    'eats': 'bugs',
+}
+pets.append(pet)
+pet = {
+    'animal type': 'chicken',
+    'name': 'clarence',
+    'owner': 'tiffany',
+    'weight': 2,
+    'eats': 'seeds',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'dog',
+    'name': 'peso',
+    'owner': 'eric',
+    'weight': 37,
+    'eats': 'shoes',
+}
+pets.append(pet)
+print(pets)
+
+# Display information about each pet.
+for pet in pets:
+    print(f"the pet owner is: {pet['name'].title()}")
+    for key, value in pet.items():
+        #print(f"animal type: {key['animal type'].title()}")
+        #print(f"owner: {key['owner'].titel()}")
+        print(f"\t{key} : {value}")
+
+
+#favorite places
+favorite_places = {'John':'Cairo','David':'Tokyo','Susan':'Las Vegas'}
+for name, city in favorite_places.items():
+    print(f"{name},your favorite city is {city}")
+
+#cities information
+cities = {
+    'Jakarta':{
+        'country':'indonsia',
+        'population':'30M',
+        'fact':'cool area',
+        },
+    'Roma': {
+        'country':'Italy',
+        'population':'3M',
+        'fact':'old city',
+        },
+    'Cairo':{
+        'country':'Egypy',
+        'population':'100M',
+        'fact':'Pyramid',
+        }
+    }
+print(cities)
+for city,info in cities.items():
+    print (f"the information about {city} are: ")
+    print(f"\t country of the city: {info['country']}")
+    print(f"\t population of the city: {info['population']}")
+    print(f"\t fact of the city: {info['fact']}")
+    print("")
+    #print(f"{info}")
