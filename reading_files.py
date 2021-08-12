@@ -1,5 +1,5 @@
 """
-read file
+Read file
 """
 #to read a file 
 with open("pi_digits.txt") as file_object:
@@ -19,4 +19,4 @@ with open(file_name) as file_object:
     for line in lines:
         print(line.rstrip())
     print(lines) #read the second line
-    print(lines[1])
+    print("The second line from the list,",lines[1])
