@@ -1,12 +1,3 @@
-#passing a list in function
-def greet_users (names):
-    """greet to users"""
-    for name in names:
-        msg = "Hello " + name.title() + ", nice to meet you"
-        print(msg)
-#to apply the function
-usernames = ['David','John','sara']
-greet_users(usernames)
 
 #creat a list
 def create_names(listNames):
@@ -21,6 +12,13 @@ def create_names(listNames):
         else:
             listNames.append(fName)
     print(listNames)
+#passing a list in function
+def greet_users (names):
+    """greet to users"""
+    for name in names:
+        msg = "Hello " + name.title() + ", nice to meet you"
+        print(msg)
+
 #to call a function
 listNames = []
 create_names(listNames)
