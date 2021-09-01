@@ -1,5 +1,5 @@
 """
-Read file
+Read file from text
 """
 #to read a file 
 with open("pi_digits.txt") as file_object:
