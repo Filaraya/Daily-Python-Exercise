@@ -155,4 +155,4 @@ for city,info in cities.items():
     print(f"\t population of the city: {info['population']}")
     print(f"\t fact of the city: {info['fact']}")
     print("")
-    #print(f"{info}")
+    
