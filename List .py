@@ -11,13 +11,11 @@ print("formatted list of fruits: ", first_fruits)
 print("list of fruits: ", fruits)
 
 # list of fruits in format way
-print(*fruits, sep="\n")
+print(fruits, sep="\n")
 
 # to add to the list in the last
 fruits.append('lemon')
-print(fruits)
-
-print("lemon added to the end :", fruits)
+print(fruits) #lemon added to the end
 
 """Guest List: If you could invite anyone, living or deceased, to dinner,
 who would you invite? Make a list that includes at least three people you’d like
@@ -37,7 +35,7 @@ stating the name of the guest who can’t make it ."""
 print ("person cann't make it: ", guests[1])
 
 """Modify your list, replacing the name of the guest
-who can’t make it with the name of the new person you are inviting ."""
+who can’t make it with the name of the new person you are inviting."""
 
 new_guest = f'{fake.name()}'
 guests[1]= new_guest
