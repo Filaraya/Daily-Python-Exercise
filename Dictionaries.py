@@ -67,12 +67,12 @@ for name, languages in favorite_languages.items():
         print(f"\t{language}")
 #many users
 users = {
-    'aeinstein': {
-        'first': 'albert',
-        'last': 'einstein',
+    'Einstein': {
+        'first': 'Albert',
+        'last': 'Einstein',
         'location': 'princeton',
         },
-    'mcurie': {
+    'Mcurie': {
         'first': 'marie',
         'last': 'curie',
         'location': 'paris',
@@ -91,16 +91,16 @@ pets = []
 # Make individual pets, and store each one in the list.
 pet = {
     'animal type': 'python',
-    'name': 'john',
-    'owner': 'guido',
+    'name': 'John',
+    'owner': 'Guido',
     'weight': 43,
     'eats': 'bugs',
 }
 pets.append(pet)
 pet = {
     'animal type': 'chicken',
-    'name': 'clarence',
-    'owner': 'tiffany',
+    'name': 'Clarence',
+    'owner': 'Tiffany',
     'weight': 2,
     'eats': 'seeds',
 }
@@ -108,8 +108,8 @@ pets.append(pet)
 
 pet = {
     'animal type': 'dog',
-    'name': 'peso',
-    'owner': 'eric',
+    'name': 'Peso',
+    'owner': 'Eric',
     'weight': 37,
     'eats': 'shoes',
 }
