@@ -7,6 +7,7 @@ root = Tk()
 mainloop ()
 
 def calculate ():
+"""convert temp Fahrenheit to Celsius"""
     temp = int (entry.get ())
     temp = 9/5 * temp + 32
     output_label.configure(text = 'The temprature in Fahrenheit: {:.1f}'.format(temp))
