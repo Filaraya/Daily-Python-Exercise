@@ -9,7 +9,7 @@ and then tell them the cost of their movie ticket .
 prompt = "Enter the age of the person: "
 prompt += "\nto quit enter 'quit'. "
 
-
+"""enter a age to get the amount"""
 while True:
     age = input(prompt)
     if age == 'quit':
