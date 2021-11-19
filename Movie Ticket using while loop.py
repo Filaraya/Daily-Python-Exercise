@@ -10,7 +10,7 @@ prompt = "Enter the age of the person: "
 prompt += "\nto quit enter 'quit'. "
 
 """enter a age to get the amount"""
-while True:
+while True: #keep doing until the user put quit
     age = input(prompt)
     if age == 'quit': 
         break
