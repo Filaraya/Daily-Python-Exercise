@@ -9,7 +9,7 @@ import re
 
 N = int(input("Enter the number of phone numbers to validate: "))
 
-for i in range(N):
+for i in range(N): # N the digit of phone number
     phone = input("Enter phone number: ")
     if(len(phone)==10 and phone.isdigit()):
         output = re.findall(r"^[789]\d{9}$",phone)
