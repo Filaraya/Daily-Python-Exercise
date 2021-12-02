@@ -12,7 +12,7 @@ def calculate ():
     temp = 9/5 * temp + 32
     output_label.configure(text = 'The temprature in Fahrenheit: {:.1f}'.format(temp))
     entry.delete(0,END)
-root = Tk()
+root = Tk() #specify the UI
 message_label = Label(text='Enter a temprature in Celcius',
 font=('Verdana', 16))
 output_label = Label(font=('Verdana', 16))
