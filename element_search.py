@@ -21,9 +21,7 @@ if __name__=="__main__":
   print(find(l, 2)) # prints True
 
   
-  # Write a function that takes an ordered list of numbers (a list where the elements are in order from smallest to largest) 
-# and another number. The function decides whether or not the given number is inside the list and returns (then prints) 
-# an appropriate boolean. THIS TIME, WITH THE EXTRA: USING BINARY SEARCH.
+
 
 # find is a function that takes an ordered list of numbers and another number,
 # returning true or false whether the element appears in the list
