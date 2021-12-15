@@ -7,6 +7,7 @@
 # 
 # l is a list ordered from smallest to largest
 # element is the number to find in the original list
+
 def find(ordered_list, element_to_find):
   for element in ordered_list:
     if element == element_to_find:
@@ -20,8 +21,7 @@ if __name__=="__main__":
   print(find(l, -1)) # prints False
   print(find(l, 2)) # prints True
 
-  
-
+ 
 
 # find is a function that takes an ordered list of numbers and another number,
 # returning true or false whether the element appears in the list
