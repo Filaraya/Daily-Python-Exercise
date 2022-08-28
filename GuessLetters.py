@@ -1,8 +1,8 @@
-#Guess Letters
+#! /usr/bin/python3
 
 if __name__ == '__main__':
 	print("Welcome to hangman!!")
-	word = "Employment"
+	word = "EVAPORATE"
 	guessed = "_" * len(word)
 	word = list(word)
 	guessed = list(guessed)
